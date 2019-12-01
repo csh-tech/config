@@ -1,4 +1,4 @@
-## configuration scripts
+## personal configuration
 
 - docker installation
 - gitlab installation with docker
