@@ -1,7 +1,6 @@
 #! /bin/sh
 
 # git clone ssh://git@116.196.65.235:8822/csh/config.git
-cd config
 tar -xzvf conf.tar.gz
 
 # vim config
