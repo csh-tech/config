@@ -19,6 +19,13 @@ apt install tmux
 cp -r tmux-config ~/.tmux
 ln -s ~/.tmux/.tmux.conf ~/.tmux.conf
 
+# docker install
+sh docker.sh
+
+# nextcloud install
+sh nextcloud.sh
+
+# delete
 cd ~
 rm -rf config
 
