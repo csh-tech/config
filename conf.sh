@@ -1,4 +1,4 @@
-#! /bin/sh
+#!/bin/bash
 
 # git clone ssh://git@116.196.65.235:8822/csh/config.git
 tar -xzvf conf.tar.gz
