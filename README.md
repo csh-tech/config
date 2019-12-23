@@ -7,4 +7,4 @@
 - zsh
 - xshell
 
-just run `bash conf.sh`, and vim+tmux+zsh will be OK.
+just run `./conf.sh`, and vim+tmux+zsh will be OK.
