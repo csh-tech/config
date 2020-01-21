@@ -8,24 +8,24 @@ cp -r vimrc ~/.vim_runtime
 sh ~/.vim_runtime/install_awesome_vimrc.sh
 
 # zsh config
-apt install zsh
+apt install -y zsh
 chsh -s $(which zsh)
 cp -r oh-my-zsh ~/.oh-my-zsh
 cp ~/.zshrc ~/.zshrc.orig
 cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 
 # tmux config
-apt install tmux
+apt install -y tmux
 cp -r tmux-config ~/.tmux
 ln -s ~/.tmux/.tmux.conf ~/.tmux.conf
 
 # docker install
-sh docker.sh
+# sh docker.sh
 
 # nextcloud install
-sh nextcloud.sh
+# sh nextcloud.sh
 
 # delete
 cd ~
-rm -rf config
+# rm -rf config
 
