@@ -1,0 +1,12 @@
+set cursorline
+" set cursorcolumn
+set number
+" set mouse=a
+set colorcolumn=81
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+set expandtab
+map <C-n> :NERDTreeToggle<CR>
+let g:NERDTreeWinPos = "left"
+

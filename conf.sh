@@ -29,3 +29,8 @@ ln -s ~/.tmux/.tmux.conf ~/.tmux.conf
 cd ~
 # rm -rf config
 
+# install nerdtree
+git clone https://github.com/preservim/nerdtree.git ~/.vim/pack/vendor/start/nerdtree
+vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdtree/doc" -c q
+
+cat vimrc_add.txt >> ~/.vimrc
