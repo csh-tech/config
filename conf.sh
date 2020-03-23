@@ -30,7 +30,8 @@ cd ~
 # rm -rf config
 
 # install nerdtree
-git clone https://github.com/preservim/nerdtree.git ~/.vim/pack/vendor/start/nerdtree
+# git clone https://github.com/preservim/nerdtree.git ~/.vim/pack/vendor/start/nerdtree
+mv nerdtree ~/.vim/pack/vendor/start/
 vim -u NONE -c "helptags ~/.vim/pack/vendor/start/nerdtree/doc" -c q
 
 cat vimrc_add.txt >> ~/.vimrc
